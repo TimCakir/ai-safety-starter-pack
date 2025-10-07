@@ -7,7 +7,7 @@
 
 ## Executive Summary
 
-On December 20, 2024, Italy's data protection authority fined OpenAI **€15 million**—the first major GDPR penalty against a generative AI company. (**Note**: OpenAI is appealing this fine as of October 2025; no resolution yet.) One of the four violations: **processing user data to train ChatGPT without adequate legal basis**.
+On December 20, 2024, Italy's data protection authority (Garante) issued a formal notice of violations and announced its intention to fine OpenAI **€15 million**—the first major GDPR enforcement action against a generative AI company. (**Status:** OpenAI appealed; as of 7 October 2025 the proceeding remains unresolved.) One of the alleged violations: **processing user data to train ChatGPT without adequate legal basis**.
 
 If your organization uses ChatGPT (or any OpenAI tool) and processes personal data, **you need a Data Processing Agreement**. Not having one isn't just risky—it's illegal under GDPR, CCPA, and most privacy regulations.
 
@@ -73,7 +73,7 @@ The DPA defines:
 - Each data subject whose data you process is a separate violation
 - Potential fines: **€20 million or 4% of global revenue**, whichever is higher
 
-**Italy's OpenAI fine** (€15M, December 2024, under appeal) included this exact violation.
+**Italy's enforcement notice against OpenAI** (€15M, December 2024, under appeal) alleged this exact violation.
 
 ### 2. Data Training Protection
 
@@ -208,7 +208,7 @@ Under GDPR, data subjects have rights:
 - Browser extension inventory
 - Shadow AI discovery tools (Portal26, Harmonic, Obsidian)
 
-**Expected finding from 500+ audits**: 50% of employees use AI tools without authorization, 38% share confidential data.
+**Expected finding from 500+ audits**: 50% of employees use AI tools without authorization, 38% share confidential data (AI Operator audit dataset, 2023-2025).
 
 #### Step 3: Calculate Required Licenses
 
@@ -269,8 +269,8 @@ Under GDPR, data subjects have rights:
 **Team/Enterprise Admin Console** ([chat.openai.com/admin](https://chat.openai.com/admin)):
 
 1. **Data Retention**
-   - Set retention period (30 days minimum for Team, custom for Enterprise)
-   - Enable automatic deletion
+   - Team: Retention fixed at 30 days (monitor but cannot shorten)
+   - Enterprise: Configure retention (including zero-day) and enable automatic deletion
 
 2. **Data Controls**
    - Disable "Improve model for everyone" (ensure data isn't used for training)
@@ -403,11 +403,7 @@ unless legally required to retain it."
 (c) allow Customer to object to new subprocessors."
 ```
 
-**Current OpenAI subprocessors** (as of October 2025):
-- Microsoft Azure (hosting)
-- Google Cloud Platform (hosting)
-- Stripe (payment processing)
-- Additional third parties listed at [openai.com/policies/subprocessors](https://openai.com/policies/subprocessors)
+**Where to find the current list:** OpenAI publishes an updated roster at [openai.com/policies/subprocessors](https://openai.com/policies/subprocessors) (reviewed 7 October 2025). Always download the latest version directly before signing.
 
 **Action**: Review subprocessor list, verify they're GDPR-compliant.
 
@@ -696,7 +692,7 @@ NOW, THEREFORE, the parties agree as follows:
 
 **Fast-track ChatGPT Team/Enterprise**:
 
-- **Day 1-2**: Get budget approval (use Italy fine as justification: €15M, first GenAI GDPR penalty)
+- **Day 1-2**: Get budget approval (cite the Italian Garante’s €15M enforcement notice—first major GenAI GDPR action)
 - **Day 3-5**: Sign up for Team (self-serve) or contact Enterprise sales
 - **Day 5-7**: Legal review of DPA (parallel with procurement)
 - **Week 2**: Deploy to initial user group (20% of workforce)
@@ -812,7 +808,7 @@ Use this checklist to verify your DPA implementation is complete:
 
 - **GDPR Article 28**: [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 - **EU Standard Contractual Clauses (SCCs)**: [ec.europa.eu/sccs](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en)
-- **Italy OpenAI Fine Details**: [gpdp.it](https://www.gpdp.it/) (Italian Data Protection Authority)
+- **Italy OpenAI Enforcement Notice**: [gpdp.it](https://www.gpdp.it/) (Italian Data Protection Authority)
 - **CCPA Guidance**: [oag.ca.gov/privacy/ccpa](https://oag.ca.gov/privacy/ccpa)
 
 ### Related Guides in This Starter Pack
@@ -855,7 +851,7 @@ Use this checklist to verify your DPA implementation is complete:
 
 **The bottom line**: If you're using ChatGPT with personal data, you need a Data Processing Agreement. Free and Plus plans don't include DPAs. Team and Enterprise plans do.
 
-**The Italy fine** (€15M, December 2024, under appeal) proves regulators are serious about enforcing GDPR against AI companies—and will hold **you** accountable if you use non-compliant tools.
+**The Italian enforcement notice** (€15M, December 2024, under appeal) proves regulators are serious about enforcing GDPR against AI companies—and will hold **you** accountable if you use non-compliant tools.
 
 **Action today**:
 1. Take the DPA Coverage Assessment (10 minutes)
@@ -863,11 +859,11 @@ Use this checklist to verify your DPA implementation is complete:
 3. Configure admin settings properly (before deployment)
 4. Monitor and maintain compliance (quarterly)
 
-**Don't be the next €15 million headline.**
+**Don't be the next €15 million enforcement headline.**
 
 ---
 
 **Document Version**: 1.0
-**Last Updated**: October 2025
+**Last Updated**: 7 October 2025
 **Author**: Tim Cakir, AI Operator
 **Based on**: 500+ enterprise AI implementations

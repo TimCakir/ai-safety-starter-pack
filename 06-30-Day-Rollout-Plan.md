@@ -1418,7 +1418,7 @@ VENDOR CONTACTS:
 ---
 
 **Document Version:** 1.0
-**Last Updated:** [Date]
+**Last Updated:** 7 October 2025
 **Owner:** Chief Information Security Officer
 **Next Review Date:** [Date + 90 days]
 

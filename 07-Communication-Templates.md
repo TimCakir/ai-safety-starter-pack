@@ -76,9 +76,9 @@ AI tools have become essential to how we work—and that's not changing. What *i
 
 **Why we're implementing an AI governance policy:**
 
-In the past 18 months, we've seen a 485% increase in corporate data flowing into AI tools across our industry. While this drives productivity, it also creates real risks:
+In the past 18 months, we've seen a 485% increase in corporate data flowing into AI tools across our industry (Netskope Cloud and Threat Report, Q3 2024). While this drives productivity, it also creates real risks:
 
-- **Regulatory exposure:** A major tech company received a €15 million GDPR fine in 2024 for improper AI data handling
+- **Regulatory exposure:** A major tech company faced a €15 million GDPR enforcement action in 2024 for improper AI data handling
 - **Data leaks:** [COMPETITOR/PEER COMPANY] had confidential information exposed through unmanaged AI tool usage
 - **Compliance requirements:** [IF APPLICABLE: Our enterprise clients increasingly require documented AI governance]
 
@@ -117,7 +117,7 @@ Let's build the future responsibly.
 ---
 
 **Customization Notes:**
-- **Replace peer company example:** Use a real example from your industry if possible (Samsung, OpenAI fine, etc.)
+- **Replace peer company example:** Use a real example from your industry if possible (Samsung, Italian enforcement notice against OpenAI, etc.)
 - **Adjust approved tools list:** Include 3-5 most common tools your team needs
 - **Add compliance drivers:** If you're in healthcare, financial services, or other regulated industries, specifically mention HIPAA, SOX, PCI-DSS, etc.
 - **Company size consideration:** Smaller companies can be more conversational; large enterprises should maintain professional tone
@@ -1512,7 +1512,7 @@ And remember: The companies that win with AI won't be the ones with the most res
 ## Document Information
 
 **Version:** 1.0
-**Last Updated:** October 2025
+**Last Updated:** 7 October 2025
 **Author:** Tim Cakir, AI Safety and Governance Specialist
 **Contact:** tim@aioperator.com | https://linkedin.com/in/timcakir | https://aioperator.com
 **License:** Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (see LICENSE file)

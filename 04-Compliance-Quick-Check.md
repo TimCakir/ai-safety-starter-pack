@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-Here's what we know from 500+ enterprise audits: 63% of organizations have zero AI governance policies, 97% of breached organizations lack proper AI access controls, and organizations with shadow AI face $670,000 higher breach costs. Meanwhile, Italy fined OpenAI €15 million for GDPR violations (under appeal), and the EU AI Act prohibitions are now ACTIVE (since February 2, 2025), with €35M penalty enforcement active since August 2, 2025, and full compliance required by August 2026.
+Here's what we know from 500+ enterprise audits: 63% of organizations have zero AI governance policies and 97% of breach investigations revealed missing AI access controls (AI Operator audit dataset, 2023-2025). IBM’s 2024 Cost of a Data Breach report found that organizations with unmanaged shadow AI incur $670,000 higher breach costs. Meanwhile, Italy’s data protection authority issued a €15 million enforcement notice against OpenAI in December 2024 (appeal pending), and the EU AI Act entered into force on 1 August 2024: prohibited-practice bans become enforceable on 2 February 2025, and most high-risk obligations take effect on 2 August 2026.
 
 This assessment shows you exactly where you stand across four major compliance frameworks. No judgment, no sales pitch—just clear gaps and practical fixes. Most organizations score 40-65 on their first assessment. The goal is improvement, not perfection.
 
@@ -135,7 +135,7 @@ Complete this 10-minute preparation to ensure accurate assessment:
 
 ### Regulatory Context
 
-GDPR applies if you process personal data of EU residents, regardless of where your organization is located. Italy fined OpenAI €15M in December 2024 for GDPR violations related to AI systems. Enforcement has resulted in €5.88 billion in total fines, with an average of €100M in monthly penalties. GDPR violations create both regulatory and reputational risk.
+GDPR applies if you process personal data of EU residents, regardless of where your organization is located. Italy’s data protection authority issued a €15M enforcement notice against OpenAI in December 2024 for alleged GDPR violations related to AI systems (final decision pending). Enforcement has resulted in €5.88 billion in total fines, with an average of €100M in monthly penalties. GDPR violations create both regulatory and reputational risk.
 
 ### Questions (15 items = 30 points possible)
 
@@ -147,7 +147,7 @@ Do you have executed Data Processing Agreements (DPAs) with all AI vendors that 
 - [ ] PARTIAL (1 point) - DPAs with some vendors, gaps remain
 - [ ] NO (0 points) - No formal DPAs in place
 
-**Risk Weight: CRITICAL** | GDPR Article 28 | OpenAI Italy fine stemmed partially from inadequate processor agreements
+**Risk Weight: CRITICAL** | GDPR Article 28 | Italy’s enforcement notice against OpenAI cited inadequate processor agreements
 
 ---
 
@@ -329,7 +329,7 @@ Do you maintain records of processing activities (Article 30 records) that inclu
 
 ### Regulatory Context
 
-The EU AI Act creates the world's first comprehensive AI regulation. Prohibitions on certain AI practices are ACTIVE (since February 2, 2025). Penalty enforcement is ACTIVE (since August 2, 2025). High-risk AI system obligations take effect August 2, 2026. This Act applies to AI systems placed on the EU market or whose output is used in the EU, regardless of where the provider is located. Maximum fines (€35M or 7% of revenue, enforceable since August 2025) exceed GDPR penalties.
+The EU AI Act creates the world's first comprehensive AI regulation. The Act entered into force on 1 August 2024. Prohibitions on unacceptable-risk AI practices apply from 2 February 2025 (six months after entry into force). Obligations for general-purpose AI (foundation model) providers begin 1 August 2025 (12 months). Most high-risk AI system requirements take effect on 2 August 2026 (24 months). The Act applies to AI systems placed on the EU market or whose output is used in the EU, regardless of provider location. Maximum fines of €35M or 7% of revenue apply once the relevant obligations are in force.
 
 ### Questions (13 items = 26 points possible)
 
@@ -365,7 +365,7 @@ Do you avoid prohibited AI practices including social scoring by governments, ma
 - [ ] PARTIAL (1 point) - Believe compliant but not formally verified
 - [ ] NO (0 points) - May use prohibited practices or haven't assessed
 
-**Risk Weight: CRITICAL** | EU AI Act Article 5 | Prohibited practices carry highest penalties; ACTIVE since February 2, 2025, penalties enforceable since August 2, 2025
+**Risk Weight: CRITICAL** | EU AI Act Article 5 | Prohibited practices carry highest penalties; enforceable from 2 February 2025
 
 ---
 
@@ -978,7 +978,7 @@ This section provides implementation guidance for common gaps identified in asse
 **Addresses:** GDPR Questions 1-2
 
 **Why This Matters:**
-Processing EU personal data without DPAs creates unlawful processing from day one. Italy's €15M OpenAI fine stemmed partially from inadequate processor agreements. Without DPAs, you have no legal framework for vendor data processing.
+Processing EU personal data without DPAs creates unlawful processing from day one. Italy’s €15M enforcement notice against OpenAI cited inadequate processor agreements. Without DPAs, you have no legal framework for vendor data processing.
 
 **Implementation Steps:**
 1. **Inventory AI vendors** processing EU personal data (1-2 hours)
@@ -1128,7 +1128,7 @@ GDPR requires breach notification to supervisory authorities within 72 hours. Mi
 **Addresses:** EU AI Act Question 16
 
 **Why This Matters:**
-EU AI Act prohibitions take effect February 2, 2025. High-risk system obligations take effect August 2, 2026. Misclassification means you don't know which obligations apply, leaving you non-compliant by default. Maximum penalties: €35M or 7% of revenue.
+EU AI Act prohibitions take effect 2 February 2025; general-purpose AI provider obligations begin 1 August 2025; high-risk system obligations take effect 2 August 2026. Misclassification means you don't know which obligations apply, leaving you non-compliant by default. Maximum penalties reach €35M or 7% of revenue once the relevant obligations are active.
 
 **Implementation Steps:**
 1. **Inventory all AI systems** (4-6 hours)
@@ -2267,7 +2267,7 @@ Controls fail when employees don't understand them. Training is required for CCP
      * What data can/cannot be used with AI
      * Privacy basics (GDPR, CCPA rights)
      * How to recognize and report incidents
-     * Real-world examples and case studies (Samsung trade secrets, OpenAI fine)
+     * Real-world examples and case studies (Samsung trade secrets, OpenAI enforcement notice)
    - Format: Video, interactive modules, quizzes
    - Duration: 30-45 minutes
    - Passing score requirement: 80%+

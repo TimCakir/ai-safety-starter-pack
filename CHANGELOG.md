@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **Core Guides** (8 comprehensive documents):
 - **01-The-Safe-AI-Stack.md** (6,111 words) - Tool comparison matrix covering ChatGPT, Claude, Gemini, Microsoft Copilot, and 8+ other AI platforms
-- **02-ChatGPT-DPA-Guide.md** (4,599 words) - OpenAI Data Processing Agreement implementation handbook with Italy €15M fine breakdown
+- **02-ChatGPT-DPA-Guide.md** (4,599 words) - OpenAI Data Processing Agreement implementation handbook with Italy €15M enforcement notice breakdown
 - **03-Governance-Blueprint.md** (7,267 words) - Copy-paste AI policy framework with department-specific rules and 3-tier violation framework
 - **04-Compliance-Quick-Check.md** (16,290 words) - 50-point assessment tool for GDPR, EU AI Act, SOC 2, and CCPA compliance
 - **05-Risk-Zone-Map.md** (14,063 words) - 7 Blind Spots Framework™ covering hidden data risks from 500+ enterprise audits
@@ -34,7 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 **Methodology**:
 - Based on findings from 500+ enterprise AI implementations
 - Tim Cakir's proprietary 7 Blind Spots Framework™
-- Evidence-based risk assessment with real incidents (Samsung leak, Italy €15M fine, AgentFlayer attack)
+- Evidence-based risk assessment with real incidents (Samsung leak, Italy €15M enforcement action, AgentFlayer attack)
 - Regulatory compliance coverage: GDPR, EU AI Act, CCPA, SOC 2
 
 **Key Statistics Integrated**:
@@ -43,7 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 50% would refuse to stop using AI if banned
 - 11% of ChatGPT inputs contain confidential data
 - 4.7% of employees have leaked confidential data via AI
-- €15M Italy fine for OpenAI (December 2024 - first GenAI GDPR penalty)
+- €15M Italian enforcement notice for OpenAI (December 2024 - first GenAI GDPR action)
 - €35M maximum EU AI Act fines (or 7% of worldwide revenue)
 
 **Actionable Content**:
@@ -62,10 +62,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Context
 
 **Regulatory Timeline** (as of October 2025):
-- EU AI Act prohibitions: ACTIVE since February 2, 2025
-- EU AI Act penalty regime (€35M/7%): ACTIVE since August 2, 2025
-- EU AI Act full compliance deadline: August 2, 2026 (upcoming)
-- Italy OpenAI GDPR fine: December 20, 2024 (€15M - precedent-setting, under appeal)
+- EU AI Act prohibitions: enforceable from February 2, 2025
+- EU AI Act GPAI obligations: enforceable from August 1, 2025
+- EU AI Act high-risk system obligations: effective August 2, 2026 (upcoming)
+- Italy OpenAI GDPR enforcement notice: December 20, 2024 (€15M - precedent-setting, under appeal)
 - GDPR enforcement ongoing: €5.88B in total fines to date
 
 **Market Need**:

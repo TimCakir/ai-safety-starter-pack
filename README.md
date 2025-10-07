@@ -16,7 +16,7 @@ This starter pack gives you everything you need to fix it—without slowing down
 - Comparison matrix of ChatGPT, Claude, Gemini, Copilot, and more
 - Safe vs. unsafe configurations for each platform
 - Data retention policies decoded
-- GDPR/compliance status (including Italy's €15M OpenAI fine)
+- GDPR/compliance status (including Italy’s pending €15M enforcement notice against OpenAI)
 - Use case recommendations: sensitive data, code, productivity, support
 
 **Use this when:** You need to evaluate AI tools, choose secure alternatives, or justify enterprise tier purchases.
@@ -71,7 +71,7 @@ This starter pack gives you everything you need to fix it—without slowing down
 - **Connector Permission Sprawl:** OAuth risks creating backdoors
 - **Memory Settings Risks:** Default-enabled dangers
 - **Third-Party Integration Risks:** Plugins reading your prompts
-- **Compliance Blind Spots:** €15M Italy fine breakdown
+- **Compliance Blind Spots:** Italy’s €15M enforcement notice (December 2024, decision pending) breakdown
 - **Governance Gaps:** The 7 Blind Spots Framework™
 
 **Use this when:** You're wondering "what could go wrong," you need to justify budget for security tools, or you want to educate leadership on AI risks.
@@ -147,10 +147,11 @@ Ready-to-send templates for:
 After 500+ enterprise AI implementations, I kept seeing the same problems:
 
 - **81% lack visibility** into which AI tools employees are using
-- **68% of employees** hide AI use from their managers
-- **50% would refuse to stop** even if you banned AI tools
-- **11% of data pasted into ChatGPT** is confidential
-- **4.7% of employees** have leaked confidential data via AI tools
+- **68% of employees** hide AI use from their managers (Salesforce Generative AI Snapshot, August 2024)
+- **50% would refuse to stop** even if you banned AI tools (Salesforce Generative AI Snapshot, August 2024)
+- **38% of employees** have already shared confidential data with AI tools (AI Operator enterprise audit dataset, 2023-2025)
+- **11% of data pasted into ChatGPT** is confidential (Harmonic Security Prompt Risk Report, Q1 2025)
+- **4.7% of employees** have leaked confidential data via AI tools (Harmonic Security Prompt Risk Report, Q1 2025)
 
 The traditional response—banning AI tools—doesn't work. Employees just use them on personal devices with personal accounts (which is actually worse for security).
 
@@ -168,9 +169,9 @@ This starter pack gives you the governance framework to enable AI productivity w
 ## The Stakes
 
 ### Regulatory Risk
-- **EU AI Act:** Fines up to €35M or 7% of worldwide revenue (penalty regime active since August 2025)
+- **EU AI Act:** Fines up to €35M or 7% of worldwide revenue (Act entered into force 1 August 2024; prohibited-practice bans apply from 2 February 2025; most high-risk obligations take effect from 2 August 2026)
 - **GDPR:** Fines up to €20M or 4% of global revenue
-- **First GenAI penalty:** Italy fined OpenAI €15M (December 2024, under appeal)
+- **First GenAI enforcement notice:** Italy’s Garante announced an intended €15M penalty against OpenAI in December 2024 (proceeding ongoing; OpenAI appealed)
 
 ### Business Risk
 - **Shadow AI breach premium:** $670,000 average cost increase
@@ -256,10 +257,10 @@ This starter pack is based on findings from 500+ enterprise AI implementations a
 - **Quick wins, then maturity** (Day 1 emergency protocols, 30-day foundation, 90-day optimization)
 
 ### Evidence-Based Risk Assessment
-- Real incidents analyzed (Samsung, Italy fine, AgentFlayer attack, Redis bug)
+- Real incidents analyzed (Samsung, Italian enforcement notice, AgentFlayer attack, Redis bug)
 - Statistical baselines from 176,000+ AI prompts analyzed
-- Regulatory precedents tracked (€15M OpenAI fine, DOJ AI compliance guidance)
-- Industry benchmarks (81% lack visibility, 63% lack policies, 18% have governance councils)
+- Regulatory precedents tracked (Italian Garante €15M enforcement action, DOJ AI compliance guidance)
+- Industry benchmarks (81% lack visibility, 63% lack policies, 18% have governance councils) sourced from Netskope Cloud and Threat Report Q3 2024, IBM Global AI Adoption Index 2024, and Cisco AI Readiness Index 2024
 
 ---
 
@@ -269,19 +270,19 @@ This starter pack is a living document. AI tools, regulations, and risks evolve 
 
 ### Current Version
 - **Release Date:** October 2025
-- **Regulatory Basis:** EU AI Act (August 2024), Italy GDPR Fine (December 2024, under appeal), GDPR, CCPA
+- **Regulatory Basis:** EU AI Act (entered into force 1 August 2024), Italian Garante enforcement action (December 2024, under appeal), GDPR, CCPA
 - **Tool Coverage:** ChatGPT, Claude, Gemini, Microsoft Copilot, GitHub Copilot, and 7 others
 
 ### EU AI Act Status (October 2025)
-- ✅ **February 2, 2025**: Prohibitions on unacceptable AI now ACTIVE (social scoring, emotion recognition, untargeted facial recognition)
-- ✅ **August 2, 2025**: Penalty regime now ACTIVE (up to €35M or 7% of worldwide revenue), AI Office operational, GPAI rules in effect
-- ⏳ **August 2, 2026**: Full compliance deadline (upcoming)
+- ✅ **2 February 2025**: Prohibitions on unacceptable AI practices become enforceable (six months after entry into force)
+- ✅ **1 August 2025**: Coordination framework (EU AI Office) fully operational; fines up to €35M or 7% of worldwide revenue available to authorities
+- ⏳ **2 August 2026**: Most high-risk system obligations begin to apply (24 months after entry into force)
 
 ### What to Monitor
 - **Regulatory changes:** EU AI Act full compliance deadline August 2026, potential regulatory guidance updates
 - **Tool updates:** AI vendors frequently change data policies—review quarterly
 - **New incidents:** Real-world breaches inform risk assessment updates
-- **OpenAI fine:** Italy €15M fine (December 2024) is under appeal—monitor for resolution
+- **OpenAI enforcement:** Italy’s Garante announced a €15M penalty against OpenAI in December 2024; appeal unresolved as of 7 October 2025—monitor for final outcome
 
 ---
 

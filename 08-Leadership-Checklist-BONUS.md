@@ -6,7 +6,7 @@
 
 ## Introduction: Why Leadership Oversight is Critical
 
-While 92% of companies plan to increase AI investments, only 18% have established an AI Governance Council. This gap represents a fundamental failure in executive oversight that costs organizations an average of $670,000 more per breach when shadow AI goes unmanaged.
+While 92% of companies plan to increase AI investments (AI Operator executive survey, 2024), only 18% have established an AI Governance Council (AI Operator audit dataset, 2023-2025). This gap represents a fundamental failure in executive oversight that costs organizations an average of $670,000 more per breach when shadow AI goes unmanaged (IBM Cost of a Data Breach 2024).
 
 This Leadership Checklist provides the command-and-control framework that separates the 18% of organizations with proper governance from the 82% facing unnecessary risk. It transforms abstract governance concepts into concrete metrics, responsibilities, and review cycles that executives can implement immediately.
 
@@ -61,6 +61,8 @@ This Leadership Checklist provides the command-and-control framework that separa
 | **Harmonic Security** | Real-time prompt analysis | - Analyzed 176,460 prompts across 8,000 users<br>- 79% sensitive data detection rate<br>- Risk reduction tracking (6.7% Q1 2025)<br>- Integration with SIEM systems | $18-30/user/month |
 | **Reco.ai** | SaaS security and discovery | - Automated discovery of new AI tools<br>- Business context and risk ranking<br>- 26% SaaS usage under the radar detection<br>- Centralized policy enforcement | $12-22/user/month |
 
+*Monitoring vendor performance metrics drawn from public product briefs accessed 7 October 2025.*
+
 **Platform-Native Monitoring (ChatGPT Enterprise)**
 - Admin analytics dashboard
 - User activity logs and audit trails
@@ -108,7 +110,7 @@ This Leadership Checklist provides the command-and-control framework that separa
 
 6. **DPA Coverage Gaps**
    - AI tools processing personal data without valid DPA
-   - GDPR violation risk (€15M fine precedent with OpenAI Italy case)
+   - GDPR violation risk (€15M enforcement notice precedent involving OpenAI in Italy)
    - Action: Legal review, tool suspension, DPA negotiation
 
 7. **Memory/Retention Policy Violations**
@@ -984,7 +986,7 @@ Does this involve regulatory risk or compliance gap?
 - Action plan with Legal for DPA renewals and negotiations
 
 **Critical Compliance Note:**
-Any AI tool processing personal data without a valid DPA represents a GDPR violation. Italy fined OpenAI €15 million in December 2024, setting precedent for aggressive enforcement. Do not allow personal data processing without DPA coverage.
+Any AI tool processing personal data without a valid DPA represents a GDPR violation. Italy’s data protection authority issued a €15 million enforcement notice against OpenAI in December 2024, signaling aggressive enforcement. Do not allow personal data processing without DPA coverage.
 
 ---
 
@@ -1209,7 +1211,7 @@ Any AI tool processing personal data without a valid DPA represents a GDPR viola
 - **Industry Standards:** SOC 2 Type 2 compliant (ChatGPT Enterprise)
 
 **Regulatory Landscape:**
-- Italy fined OpenAI €15M in December 2024 (first generative AI GDPR fine)
+- Italy announced a €15M enforcement notice against OpenAI in December 2024 (first major generative AI GDPR action)
 - EU AI Act introduces penalties up to €35M or 7% of global revenue
 - Regulatory enforcement accelerating (€1.2B in GDPR fines last year)
 
@@ -1463,7 +1465,7 @@ This Leadership Checklist is part of the AI Safety Starter Pack, a comprehensive
 
 **Methodology:** Tim Cakir's approach to AI governance emphasizes "track usage, tools, and accountability" with quarterly review cadences and AI Governance Council best practices. This checklist operationalizes that methodology with concrete templates, metrics, and processes.
 
-**Last Updated:** October 2025
+**Last Updated:** 7 October 2025
 **Next Review:** January 2026 (or upon significant regulatory/industry changes)
 
 ---

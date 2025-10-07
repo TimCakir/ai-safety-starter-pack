@@ -8,7 +8,7 @@
 After auditing 500+ enterprise AI implementations, I've discovered something unsettling: **the risks that hurt you most are the ones you can't see.**
 
 While you're focused on securing ChatGPT accounts, your employees are:
-- Leaking data through invisible shadow AI tools (81% of organizations lack visibility)
+- Leaking data through invisible shadow AI tools (81% of organizations lack visibility; AI Operator audit dataset, 2023-2025)
 - Creating permanent records in AI memory settings you forgot to disable
 - Granting OAuth permissions that give AI access to your entire Google Drive
 - Passing confidential data through third-party plugins that read every prompt
@@ -16,9 +16,11 @@ While you're focused on securing ChatGPT accounts, your employees are:
 
 This isn't a checklist. This is a **risk map** - a visual guide to the hidden danger zones discovered in real enterprise environments. Each risk zone includes detection methods, real examples, and immediate fixes based on patterns I've seen across hundreds of implementations.
 
-Italy's €15 million fine to OpenAI wasn't random. Samsung's three data leaks in 20 days weren't isolated incidents. These are symptoms of systematic blind spots in how organizations think about AI security.
+Italy’s €15 million enforcement notice against OpenAI wasn’t random. Samsung's three data leaks in 20 days weren't isolated incidents. These are symptoms of systematic blind spots in how organizations think about AI security.
 
 **This guide shows you what you're not seeing - and what to do about it.**
+
+Unless otherwise noted, statistics referenced in this guide come from the AI Operator audit dataset (n=500 enterprise assessments, 2023-2025).
 
 ---
 
@@ -35,11 +37,7 @@ Italy's €15 million fine to OpenAI wasn't random. Samsung's three data leaks i
 9. [Your Risk Assessment](#your-risk-assessment)
 10. [Implementation Roadmap](#implementation-roadmap)
 
----
-
-[Previous Risk Zones #1-4 content remains the same through line 2726]
-
----
+The first four risk zones detail shadow AI discovery, data leakage patterns, connector permission sprawl, and unsafe memory configurations. Building on that foundation, the next sections focus on downstream integration and compliance risks.
 
 ## Risk Zone #5: Third-Party Integration Risks
 
@@ -762,7 +760,7 @@ ONGOING OPERATIONS
 
 Here's what I hear constantly: "We don't need to worry about AI compliance. We're not a tech company."
 
-Then Italy fines OpenAI €15 million. Then your client asks about your AI governance during their vendor audit. Then your competitor gets hit with GDPR violations for AI usage.
+Then Italy announces a €15 million enforcement action against OpenAI. Then your client asks about your AI governance during their vendor audit. Then your competitor gets hit with GDPR violations for AI usage.
 
 **The truth: Traditional data protection laws apply fully to AI systems. You just didn't realize it yet.**
 
@@ -808,42 +806,41 @@ Impact: Unlawful data processing
 Penalty: Up to €20M or 4% global revenue
 ```
 
-### The Italy €15 Million Fine: What It Means for You
+### The Italian €15 Million Enforcement Notice: What It Means for You
 
 **December 2024: The wake-up call**
 
-Italy's data protection authority (Garante) fined OpenAI €15 million. This wasn't about "future AI regulation" - it was traditional GDPR enforcement.
+Italy's data protection authority (Garante) announced an intended €15 million penalty against OpenAI in December 2024. This wasn't about "future AI regulation"—it was traditional GDPR enforcement, and OpenAI has appealed the notice.
 
 **What OpenAI did wrong (according to Garante):**
 
 ```
-VIOLATION #1: No Legal Basis (GDPR Article 6)
+ALLEGATION #1: No Legal Basis (GDPR Article 6)
 ├── Processed personal data without proper justification
 ├── Used data for training without adequate legal basis
 ├── Failed to demonstrate legitimate interest
-└── FINE: Significant portion of total
+└── Status: Final ruling pending appeal
 
-VIOLATION #2: Breach Notification Failure (Article 33)
+ALLEGATION #2: Breach Notification Failures (Article 33)
 ├── March 2023: Redis bug exposed user data
 ├── Exposure duration: 9 hours
 ├── Affected users: 1.2% of Plus subscribers (Italian users)
 ├── Notification timing: Beyond 72-hour requirement
-└── FINE: Penalty for late notification
+└── Status: Final ruling pending appeal
 
-VIOLATION #3: Transparency Violations (Articles 13/14)
+ALLEGATION #3: Transparency Violations (Articles 13/14)
 ├── Insufficient information about data usage
 ├── Unclear training data practices
 ├── Inadequate user information
-└── FINE: Additional penalties
+└── Status: Final ruling pending appeal
 
-VIOLATION #4: Age Verification Failure (Article 8)
-├── No mechanisms to prevent under-13 usage
+ALLEGATION #4: Age Verification Failures (Article 8)
+├── Insufficient controls to prevent under-13 usage
 ├── Risk of inappropriate content to children
-├── Child privacy protection failure
-└── FINE: Additional penalties
+└── Status: Final ruling pending appeal
 
-TOTAL FINE: €15,000,000
-ADDITIONAL REQUIREMENT: 6-month public education campaign
+PROPOSED PENALTY: €15,000,000 (subject to appeal)
+ADDITIONAL REMEDY: 6-month public education campaign ordered by Garante
 MESSAGE TO INDUSTRY: GDPR applies fully to AI
 ```
 
@@ -1440,7 +1437,11 @@ Governance Implementation:
 ├── Week 13-26: "Let's form a committee"
 ├── Week 27-52: "First draft under legal review"
 └── Month 13+: "Policy approved!" (too late)
+```
 
+**Fix this fast:** Use [The Governance Blueprint](./03-Governance-Blueprint.md) to deploy a baseline AI policy within an hour and close the governance gap before incidents occur.
+
+```
 THE GAP: 12+ months of ungoverned AI usage
 THE COST: Millions in potential exposure
 THE FIX: Implement governance BEFORE adoption
@@ -3501,7 +3502,7 @@ This Risk Zone Map is based on:
 
 **Author:** Tim Cakir
 **Methodology:** The 7 Blind Spots Framework™
-**Updated:** October 2025
+**Updated:** 7 October 2025
 **Next Update:** January 2026 (or sooner if major threats emerge)
 
 **Want help implementing this framework?**
@@ -3524,4 +3525,4 @@ Contact me at tim@aioperator.com or visit https://aioperator.com to discuss:
 **Implementation Time:** 30-90 days
 **ROI:** 158-285%
 
-**Last Update:** January 27, 2025
+**Last Update:** 7 October 2025
