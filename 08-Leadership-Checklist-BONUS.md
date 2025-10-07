@@ -1464,7 +1464,7 @@ This Leadership Checklist is part of the AI Safety Starter Pack, a comprehensive
 **Methodology:** Tim Cakir's approach to AI governance emphasizes "track usage, tools, and accountability" with quarterly review cadences and AI Governance Council best practices. This checklist operationalizes that methodology with concrete templates, metrics, and processes.
 
 **Last Updated:** October 2025
-**Next Review:** April 2026 (or upon significant regulatory/industry changes)
+**Next Review:** January 2026 (or upon significant regulatory/industry changes)
 
 ---
 

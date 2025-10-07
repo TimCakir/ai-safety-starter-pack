@@ -3506,7 +3506,7 @@ This Risk Zone Map is based on:
 
 **Want help implementing this framework?**
 
-Contact me at [email] or visit [website] to discuss:
+Contact me at tim@aioperator.com or visit https://aioperator.com to discuss:
 - AI security audits for your organization
 - Implementation support and consulting
 - Executive workshops on AI governance
