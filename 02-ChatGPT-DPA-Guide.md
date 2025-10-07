@@ -403,7 +403,7 @@ unless legally required to retain it."
 (c) allow Customer to object to new subprocessors."
 ```
 
-**Current OpenAI subprocessors** (as of January 2025):
+**Current OpenAI subprocessors** (as of October 2025):
 - Microsoft Azure (hosting)
 - Google Cloud Platform (hosting)
 - Stripe (payment processing)
@@ -868,6 +868,6 @@ Use this checklist to verify your DPA implementation is complete:
 ---
 
 **Document Version**: 1.0
-**Last Updated**: January 2025
+**Last Updated**: October 2025
 **Author**: Tim Cakir, AI Operator
 **Based on**: 500+ enterprise AI implementations

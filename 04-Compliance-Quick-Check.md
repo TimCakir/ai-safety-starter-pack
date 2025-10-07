@@ -2984,9 +2984,9 @@ Date: ________________
 
 *This assessment tool provides guidance on compliance considerations for AI systems under GDPR, EU AI Act, SOC 2, and CCPA. It does not constitute legal advice. Organizations should consult qualified legal counsel for specific compliance guidance. Regulatory requirements are subject to change; verify current requirements with official sources.*
 
-*This assessment is based on regulations as of January 2025. EU AI Act implementation is ongoing; consult official sources for latest guidance.*
+*This assessment is based on regulations as of October 2025. EU AI Act implementation is ongoing; consult official sources for latest guidance.*
 
-*Version 1.0 | January 2025 | Next review: April 2025*
+*Version 1.0 | October 2025 | Next review: January 2026*
 
 ---
 

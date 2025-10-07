@@ -171,7 +171,7 @@ This project uses semantic versioning:
 - **Minor** (1.1.0): New guides, substantial sections, tool additions
 - **Patch** (1.0.1): Corrections, small updates, regulatory clarifications
 
-Current version: **1.0** (January 2025)
+Current version: **1.0** (October 2025)
 
 ## Questions?
 

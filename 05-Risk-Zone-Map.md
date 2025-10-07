@@ -2275,7 +2275,7 @@ COMPLIANCE
 
 ---
 
-## The 7 Blind Spots Framework
+## The 7 Blind Spots Framework™
 
 ### Tim Cakir's Proprietary Risk Assessment System
 
@@ -3501,8 +3501,8 @@ This Risk Zone Map is based on:
 
 **Author:** Tim Cakir
 **Methodology:** The 7 Blind Spots Framework™
-**Updated:** January 2025
-**Next Update:** April 2025 (or sooner if major threats emerge)
+**Updated:** October 2025
+**Next Update:** January 2026 (or sooner if major threats emerge)
 
 **Want help implementing this framework?**
 

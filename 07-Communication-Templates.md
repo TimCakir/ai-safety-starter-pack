@@ -1512,13 +1512,13 @@ And remember: The companies that win with AI won't be the ones with the most res
 ## Document Information
 
 **Version:** 1.0
-**Last Updated:** January 2025
+**Last Updated:** October 2025
 **Author:** Tim Cakir, AI Safety and Governance Specialist
 **Contact:** [Your contact information]
 **License:** [Your licensing terms - e.g., "Free for internal company use; attribution required for redistribution"]
 
 **Change Log:**
-- v1.0 (Jan 2025): Initial release with 7 core templates
+- v1.0 (October 2025): Initial release with 7 core templates
 
 **Feedback Welcome:**
 These templates are designed to be living documents. If you use them and discover improvements, edge cases, or better language, please share your learnings: [Feedback contact/form]
