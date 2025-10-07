@@ -168,9 +168,9 @@ This starter pack gives you the governance framework to enable AI productivity w
 ## The Stakes
 
 ### Regulatory Risk
-- **EU AI Act:** Fines up to €35M or 7% of worldwide revenue
+- **EU AI Act:** Fines up to €35M or 7% of worldwide revenue (penalty regime active since August 2025)
 - **GDPR:** Fines up to €20M or 4% of global revenue
-- **First GenAI penalty:** Italy fined OpenAI €15M (December 2024)
+- **First GenAI penalty:** Italy fined OpenAI €15M (December 2024, under appeal)
 
 ### Business Risk
 - **Shadow AI breach premium:** $670,000 average cost increase
@@ -268,14 +268,20 @@ This starter pack is based on findings from 500+ enterprise AI implementations a
 This starter pack is a living document. AI tools, regulations, and risks evolve constantly.
 
 ### Current Version
-- **Release Date:** January 2025
-- **Regulatory Basis:** EU AI Act (August 2024), Italy GDPR Fine (December 2024), GDPR, CCPA
+- **Release Date:** October 2025
+- **Regulatory Basis:** EU AI Act (August 2024), Italy GDPR Fine (December 2024, under appeal), GDPR, CCPA
 - **Tool Coverage:** ChatGPT, Claude, Gemini, Microsoft Copilot, GitHub Copilot, and 7 others
 
+### EU AI Act Status (October 2025)
+- ✅ **February 2, 2025**: Prohibitions on unacceptable AI now ACTIVE (social scoring, emotion recognition, untargeted facial recognition)
+- ✅ **August 2, 2025**: Penalty regime now ACTIVE (up to €35M or 7% of worldwide revenue), AI Office operational, GPAI rules in effect
+- ⏳ **August 2, 2026**: Full compliance deadline (upcoming)
+
 ### What to Monitor
-- **Regulatory changes:** EU AI Act enforcement begins February 2, 2025 (prohibitions), full compliance required August 2026
+- **Regulatory changes:** EU AI Act full compliance deadline August 2026, potential regulatory guidance updates
 - **Tool updates:** AI vendors frequently change data policies—review quarterly
 - **New incidents:** Real-world breaches inform risk assessment updates
+- **OpenAI fine:** Italy €15M fine (December 2024) is under appeal—monitor for resolution
 
 ---
 

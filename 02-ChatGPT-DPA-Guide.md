@@ -7,7 +7,7 @@
 
 ## Executive Summary
 
-On December 20, 2024, Italy's data protection authority fined OpenAI **€15 million**—the first major GDPR penalty against a generative AI company. One of the four violations: **processing user data to train ChatGPT without adequate legal basis**.
+On December 20, 2024, Italy's data protection authority fined OpenAI **€15 million**—the first major GDPR penalty against a generative AI company. (**Note**: OpenAI is appealing this fine as of October 2025; no resolution yet.) One of the four violations: **processing user data to train ChatGPT without adequate legal basis**.
 
 If your organization uses ChatGPT (or any OpenAI tool) and processes personal data, **you need a Data Processing Agreement**. Not having one isn't just risky—it's illegal under GDPR, CCPA, and most privacy regulations.
 
@@ -73,7 +73,7 @@ The DPA defines:
 - Each data subject whose data you process is a separate violation
 - Potential fines: **€20 million or 4% of global revenue**, whichever is higher
 
-**Italy's OpenAI fine** (€15M, December 2024) included this exact violation.
+**Italy's OpenAI fine** (€15M, December 2024, under appeal) included this exact violation.
 
 ### 2. Data Training Protection
 
@@ -696,7 +696,7 @@ NOW, THEREFORE, the parties agree as follows:
 
 **Fast-track ChatGPT Team/Enterprise**:
 
-- **Day 1-2**: Get budget approval (use Italy fine as justification: €15M)
+- **Day 1-2**: Get budget approval (use Italy fine as justification: €15M, first GenAI GDPR penalty)
 - **Day 3-5**: Sign up for Team (self-serve) or contact Enterprise sales
 - **Day 5-7**: Legal review of DPA (parallel with procurement)
 - **Week 2**: Deploy to initial user group (20% of workforce)
@@ -855,7 +855,7 @@ Use this checklist to verify your DPA implementation is complete:
 
 **The bottom line**: If you're using ChatGPT with personal data, you need a Data Processing Agreement. Free and Plus plans don't include DPAs. Team and Enterprise plans do.
 
-**The Italy fine** (€15M, December 2024) proves regulators are serious about enforcing GDPR against AI companies—and will hold **you** accountable if you use non-compliant tools.
+**The Italy fine** (€15M, December 2024, under appeal) proves regulators are serious about enforcing GDPR against AI companies—and will hold **you** accountable if you use non-compliant tools.
 
 **Action today**:
 1. Take the DPA Coverage Assessment (10 minutes)

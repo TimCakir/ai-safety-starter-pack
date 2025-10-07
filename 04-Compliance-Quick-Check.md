@@ -1,12 +1,12 @@
 # The Compliance Quick Check: Multi-Framework AI Compliance Assessment
 
-**Your 50-point self-assessment for GDPR, CCPA, EU AI Act, and SOC 2 | Based on 500+ enterprise audits by Tim Cakir | Last updated: January 2025**
+**Your 50-point self-assessment for GDPR, CCPA, EU AI Act, and SOC 2 | Based on 500+ enterprise audits by Tim Cakir | Last updated: October 2025**
 
 ---
 
 ## Executive Summary
 
-Here's what we know from 500+ enterprise audits: 63% of organizations have zero AI governance policies, 97% of breached organizations lack proper AI access controls, and organizations with shadow AI face $670,000 higher breach costs. Meanwhile, Italy just fined OpenAI €15 million for GDPR violations, and the EU AI Act prohibitions take effect February 2, 2025, with full compliance required by August 2026.
+Here's what we know from 500+ enterprise audits: 63% of organizations have zero AI governance policies, 97% of breached organizations lack proper AI access controls, and organizations with shadow AI face $670,000 higher breach costs. Meanwhile, Italy fined OpenAI €15 million for GDPR violations (under appeal), and the EU AI Act prohibitions are now ACTIVE (since February 2, 2025), with €35M penalty enforcement active since August 2, 2025, and full compliance required by August 2026.
 
 This assessment shows you exactly where you stand across four major compliance frameworks. No judgment, no sales pitch—just clear gaps and practical fixes. Most organizations score 40-65 on their first assessment. The goal is improvement, not perfection.
 
@@ -329,7 +329,7 @@ Do you maintain records of processing activities (Article 30 records) that inclu
 
 ### Regulatory Context
 
-The EU AI Act creates the world's first comprehensive AI regulation. Prohibitions on certain AI practices take effect February 2, 2025. High-risk AI system obligations take effect August 2, 2026. This Act applies to AI systems placed on the EU market or whose output is used in the EU, regardless of where the provider is located. Maximum fines (€35M or 7% of revenue) exceed GDPR penalties.
+The EU AI Act creates the world's first comprehensive AI regulation. Prohibitions on certain AI practices are ACTIVE (since February 2, 2025). Penalty enforcement is ACTIVE (since August 2, 2025). High-risk AI system obligations take effect August 2, 2026. This Act applies to AI systems placed on the EU market or whose output is used in the EU, regardless of where the provider is located. Maximum fines (€35M or 7% of revenue, enforceable since August 2025) exceed GDPR penalties.
 
 ### Questions (13 items = 26 points possible)
 
@@ -365,7 +365,7 @@ Do you avoid prohibited AI practices including social scoring by governments, ma
 - [ ] PARTIAL (1 point) - Believe compliant but not formally verified
 - [ ] NO (0 points) - May use prohibited practices or haven't assessed
 
-**Risk Weight: CRITICAL** | EU AI Act Article 5 | Prohibited practices carry highest penalties; effective February 2, 2025
+**Risk Weight: CRITICAL** | EU AI Act Article 5 | Prohibited practices carry highest penalties; ACTIVE since February 2, 2025, penalties enforceable since August 2, 2025
 
 ---
 

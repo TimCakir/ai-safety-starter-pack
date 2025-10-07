@@ -5,7 +5,7 @@ All notable changes to the AI Safety Starter Pack will be documented in this fil
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - 2025-01-07
+## [1.0.0] - 2025-10-07
 
 ### Initial Release
 
@@ -61,10 +61,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Context
 
-**Regulatory Timeline**:
-- EU AI Act prohibitions effective: February 2, 2025
-- EU AI Act full compliance deadline: August 2, 2026
-- Italy OpenAI GDPR fine: December 20, 2024 (€15M - precedent-setting)
+**Regulatory Timeline** (as of October 2025):
+- EU AI Act prohibitions: ACTIVE since February 2, 2025
+- EU AI Act penalty regime (€35M/7%): ACTIVE since August 2, 2025
+- EU AI Act full compliance deadline: August 2, 2026 (upcoming)
+- Italy OpenAI GDPR fine: December 20, 2024 (€15M - precedent-setting, under appeal)
 - GDPR enforcement ongoing: €5.88B in total fines to date
 
 **Market Need**:
@@ -83,7 +84,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Upcoming Releases
 
-### [1.1.0] - Planned Q1 2025
+### [1.1.0] - Planned Q1 2026
 
 **Potential additions** (pending regulatory developments and community feedback):
 
