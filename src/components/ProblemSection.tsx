@@ -79,7 +79,7 @@ export default function ProblemSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl p-8 md:p-12 border border-primary/30"
+            className="bg-gradient-subtle rounded-2xl p-8 md:p-12 border border-primary/20"
           >
             <h3 className="text-3xl font-bold mb-8">You're Flying Blind</h3>
 

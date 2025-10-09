@@ -76,7 +76,7 @@ export default function ROISection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl p-8 border border-primary/20"
+            className="bg-gradient-subtle rounded-2xl p-8 border border-primary/20"
           >
             <h3 className="text-2xl font-bold text-dark mb-6 flex items-center">
               <span className="text-3xl mr-3">⚠️</span>

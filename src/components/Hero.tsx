@@ -7,9 +7,9 @@ interface HeroProps {
 
 export default function Hero({ onDownloadClick, onAuditClick }: HeroProps) {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-dark via-dark to-accent/20">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-accent/20 via-transparent to-transparent" />
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-dark">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(251,81,19,0.15)_0%,_transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(54,136,251,0.1)_0%,_transparent_50%)]" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
         <motion.div
@@ -52,7 +52,7 @@ export default function Hero({ onDownloadClick, onAuditClick }: HeroProps) {
               className="group relative px-8 py-4 bg-primary hover:bg-primary/90 text-white font-bold text-lg rounded-xl transition-all hover:scale-105 hover:shadow-2xl hover:shadow-primary/50 w-full sm:w-auto"
             >
               <span className="relative z-10">Download Free Starter Pack</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent opacity-0 group-hover:opacity-100 rounded-xl transition-opacity" />
+              <div className="absolute inset-0 bg-gradient-brand opacity-0 group-hover:opacity-100 rounded-xl transition-opacity" />
             </button>
             <button
               onClick={onAuditClick}

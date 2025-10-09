@@ -99,7 +99,7 @@ export default function SolutionSection({ onDownloadClick }: SolutionSectionProp
               transition={{ duration: 0.5, delay: index * 0.05 }}
               className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 border border-dark/5 relative overflow-hidden group"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-brand opacity-5 rounded-bl-full transform translate-x-16 -translate-y-16 group-hover:translate-x-8 group-hover:-translate-y-8 transition-transform" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-subtle rounded-bl-full transform translate-x-16 -translate-y-16 group-hover:translate-x-8 group-hover:-translate-y-8 transition-transform" />
 
               <div className="relative">
                 <div className="text-5xl font-bold text-primary/20 mb-3">{doc.number}</div>
@@ -127,7 +127,7 @@ export default function SolutionSection({ onDownloadClick }: SolutionSectionProp
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="bg-gradient-to-br from-dark to-accent/20 rounded-2xl p-8 md:p-12 text-center text-light"
+          className="bg-gradient-dark rounded-2xl p-8 md:p-12 text-center text-light"
         >
           <h3 className="text-3xl font-bold mb-4">Ready to Turn Chaos into Compliance?</h3>
           <p className="text-xl text-light/80 mb-8 max-w-2xl mx-auto">
@@ -142,7 +142,7 @@ export default function SolutionSection({ onDownloadClick }: SolutionSectionProp
             <svg className="w-6 h-6 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
-            <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent opacity-0 group-hover:opacity-100 rounded-xl transition-opacity" />
+            <div className="absolute inset-0 bg-gradient-brand opacity-0 group-hover:opacity-100 rounded-xl transition-opacity" />
           </button>
           <p className="text-sm text-light/60 mt-4">
             Qualified for companies with 50+ employees

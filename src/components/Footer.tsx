@@ -10,7 +10,7 @@ export default function Footer({ onDownloadClick, onAuditClick }: FooterProps) {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div className="lg:col-span-2">
             <img
-              src="/AIO_hor_light_color.png"
+              src="/AIO_hor_light_color.svg"
               alt="AI Operator"
               className="h-10 w-auto mb-6"
             />

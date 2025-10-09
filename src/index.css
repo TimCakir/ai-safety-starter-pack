@@ -13,14 +13,21 @@
 
 @layer utilities {
   .text-gradient {
-    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+    background: linear-gradient(135deg, #FB5113 0%, #3688FB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   .bg-gradient-brand {
-    @apply bg-gradient-to-br from-primary to-accent;
+    background: linear-gradient(135deg, #FB5113 0%, #3688FB 100%);
   }
 
   .bg-gradient-subtle {
-    @apply bg-gradient-to-br from-primary/10 to-accent/10;
+    background: linear-gradient(135deg, rgba(251, 81, 19, 0.08) 0%, rgba(54, 136, 251, 0.08) 100%);
+  }
+
+  .bg-gradient-dark {
+    background: linear-gradient(135deg, #030712 0%, rgba(54, 136, 251, 0.15) 100%);
   }
 }
