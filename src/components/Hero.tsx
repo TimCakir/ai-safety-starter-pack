@@ -7,7 +7,7 @@ interface HeroProps {
 
 export default function Hero({ onDownloadClick, onAuditClick }: HeroProps) {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-dark">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-dark">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(251,81,19,0.15)_0%,_transparent_50%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(54,136,251,0.1)_0%,_transparent_50%)]" />
 

@@ -6,7 +6,7 @@ interface AuditSectionProps {
 
 export default function AuditSection({ onAuditClick }: AuditSectionProps) {
   return (
-    <section className="py-24 bg-gradient-dark">
+    <section className="py-24 bg-dark">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
