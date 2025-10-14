@@ -13,9 +13,9 @@ function FAQItem({ question, answer, isOpen, onClick }: FAQItemProps) {
     <div className="border border-dark/10 rounded-xl overflow-hidden bg-white">
       <button
         onClick={onClick}
-        className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-dark/5 transition-colors"
+        className="w-full px-4 sm:px-6 py-4 sm:py-5 flex items-center justify-between text-left hover:bg-dark/5 transition-colors"
       >
-        <span className="font-semibold text-dark pr-8">{question}</span>
+        <span className="font-semibold text-dark pr-4 sm:pr-8 text-sm sm:text-base">{question}</span>
         <svg
           className={`w-6 h-6 text-accent flex-shrink-0 transition-transform ${
             isOpen ? 'transform rotate-180' : ''
@@ -36,7 +36,7 @@ function FAQItem({ question, answer, isOpen, onClick }: FAQItemProps) {
             transition={{ duration: 0.3 }}
             className="overflow-hidden"
           >
-            <div className="px-6 pb-5 pt-2 text-dark/70 leading-relaxed">
+            <div className="px-4 sm:px-6 pb-4 sm:pb-5 pt-2 text-dark/70 leading-relaxed text-sm sm:text-base">
               {answer}
             </div>
           </motion.div>
@@ -140,15 +140,15 @@ export default function FAQSection({ onDownloadClick }: FAQSectionProps) {
           transition={{ duration: 0.6 }}
           className="mt-16 text-center"
         >
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-dark/5">
-            <h3 className="text-2xl font-bold text-dark mb-4">Still have questions?</h3>
-            <p className="text-dark/70 mb-6">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-dark/5">
+            <h3 className="text-xl sm:text-2xl font-bold text-dark mb-3 sm:mb-4">Still have questions?</h3>
+            <p className="text-sm sm:text-base text-dark/70 mb-4 sm:mb-6">
               Download the starter pack for detailed documentation, or book a free audit call
               to discuss your specific situation with Tim Cakir.
             </p>
             <button
               onClick={onDownloadClick}
-              className="px-8 py-3 bg-primary hover:bg-primary/90 text-white font-semibold rounded-lg transition-all hover:scale-105"
+              className="px-6 sm:px-8 py-3 bg-primary hover:bg-primary/90 text-white font-semibold rounded-lg transition-all hover:scale-105 text-sm sm:text-base w-full sm:w-auto"
             >
               Get the Starter Pack
             </button>
