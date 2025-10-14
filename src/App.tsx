@@ -20,7 +20,7 @@ function App() {
   }
 
   const handleAuditClick = () => {
-    window.open('https://calendly.com/tim-aioperator', '_blank')
+    window.open('https://booking.akiflow.com/aio-safety', '_blank')
   }
 
   const handleFormSuccess = () => {
