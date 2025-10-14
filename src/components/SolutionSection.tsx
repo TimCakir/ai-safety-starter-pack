@@ -97,7 +97,8 @@ export default function SolutionSection({ onDownloadClick }: SolutionSectionProp
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.05 }}
-              className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 border border-dark/5 relative overflow-hidden group"
+              onClick={onDownloadClick}
+              className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 border border-dark/5 relative overflow-hidden group cursor-pointer"
             >
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-subtle rounded-bl-full transform translate-x-16 -translate-y-16 group-hover:translate-x-8 group-hover:-translate-y-8 transition-transform" />
 
@@ -110,12 +111,15 @@ export default function SolutionSection({ onDownloadClick }: SolutionSectionProp
                   <span>{doc.time}</span>
                 </div>
                 <div className="mt-4 pt-4 border-t border-dark/10">
-                  <div className="flex items-center text-accent text-sm font-semibold">
+                  <button
+                    onClick={onDownloadClick}
+                    className="flex items-center text-accent text-sm font-semibold hover:text-accent/80 transition-colors"
+                  >
                     <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                     </svg>
                     Unlock to download
-                  </div>
+                  </button>
                 </div>
               </div>
             </motion.div>
